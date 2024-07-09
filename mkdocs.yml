@@ -1,0 +1,139 @@
+site_name: "ZERO.AI"
+site_author: Mingmin Yu
+site_description: >-
+  ZERO.AI
+site_url: ""
+use_directory_urls: false
+
+repo_name: mingminyu/zeroai
+repo_url: https://github.com/mingminyu/zeroai
+
+copyright: Copyright &copy; 2024, Mingmin Yu
+
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - announce.dismiss
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.tooltips
+    - content.tabs.link
+    - content.footnote.tooltips
+    - navigation.footer
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.indexes
+    # - navigation.sections
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 暗黑模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 明亮模式
+  
+  favicon: assets/logo.svg
+  logo: assets/logo.svg
+  
+  language: zh
+
+plugins:
+  - search
+  - glightbox
+  - toggle-sidebar
+  - tags:
+      enabled: true
+
+extra:
+  generator: false
+
+extra_css:
+  - custom/stylesheets/extra.css
+
+markdown_extensions:
+  - abbr
+  - tables
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.snippets:
+      auto_append:
+        - includes/mkdocs.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - 后端:
+    - Python: python/index.md
+    - Go: go/index.md
+    - Java: java//index.md
+    - Kotlin: kotlin/index.md
+    - Rust: rust/index.md
+    - Scala: scala/index.md
+  - 前端:
+    - Vue: vue/index.md
+  - 数据库: databases/index.md
+  - 容器化: container/index.md
+  - 版本控制: vcs/index.md
+  - 人工智能: ai/index.md
+  - 商业分析: business_analysis/index.md
+  
