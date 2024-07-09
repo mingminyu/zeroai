@@ -25,7 +25,7 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
-    - navigation.indexes
+    # - navigation.indexes
     # - navigation.sections
     - navigation.tracking
     - search.highlight
@@ -123,17 +123,21 @@ markdown_extensions:
 
 nav:
   - 后端:
-    - Python: python/index.md
+    - Python: 
+      - Python基础: python/index.md
     - Go: go/index.md
     - Java: java//index.md
     - Kotlin: kotlin/index.md
     - Rust: rust/index.md
     - Scala: scala/index.md
+    - 容器化: container/index.md
+    - 数据库: databases/index.md
+    - 消息队列: mq/index.md
+    - 版本控制: vcs/index.md
+  
   - 前端:
     - Vue: vue/index.md
-  - 数据库: databases/index.md
-  - 容器化: container/index.md
-  - 版本控制: vcs/index.md
+  
   - 人工智能: ai/index.md
   - 商业分析: business_analysis/index.md
   
