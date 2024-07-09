@@ -21,12 +21,16 @@ theme:
     - content.tooltips
     - content.tabs.link
     - content.footnote.tooltips
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.prune
     - navigation.footer
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
-    # - navigation.indexes
-    # - navigation.sections
+    - navigation.indexes
+    - navigation.sections
     - navigation.tracking
     - search.highlight
     - search.share
@@ -122,21 +126,29 @@ markdown_extensions:
       custom_checkbox: true
 
 nav:
+  - 首页: 
+    - index.md
+  
   - 后端:
-    - Python: 
-      - Python基础: python/index.md
-    - Go: go/index.md
-    - Java: java//index.md
-    - Kotlin: kotlin/index.md
-    - Rust: rust/index.md
-    - Scala: scala/index.md
-    - 容器化: container/index.md
-    - 数据库: databases/index.md
-    - 消息队列: mq/index.md
-    - 版本控制: vcs/index.md
+    - Python:
+      - abc:
+        - python/python-base.md
+        - Python 基础: go/go-base.md
+        - Python WEB: go/go-base.md
+    - Go: go/go-base.md
+    - Java: java/java-base.md
+    - Kotlin: kotlin/kotlin-base.md
+    - Rust: rust/rust-base.md
+    - Scala: scala/scala-base.md
+
+    - 其他:
+      - 容器化: container/container-base.md
+      - 数据库: databases/db-base.md
+      - 消息队列: mq/mq-base.md
+      - 版本控制: vcs/vcs-base.md
   
   - 前端:
-    - Vue: vue/index.md
+    - Vue: vue/vue-base.md
   
   - 人工智能: ai/index.md
   - 商业分析: business_analysis/index.md

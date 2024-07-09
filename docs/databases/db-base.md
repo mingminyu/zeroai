@@ -1,4 +1,8 @@
-# 数据库教程
+---
+icon: material/database
+---
+
+# 数据库
 
 ## 1. 关系型数据
 

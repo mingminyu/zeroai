@@ -1,3 +1,7 @@
+---
+icon: simple/rabbitmq
+---
+
 # 消息队列
 
 <div class="grid cards" markdown>
