@@ -24,7 +24,7 @@ theme:
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
-    - navigation.prune
+    # - navigation.prune
     - navigation.footer
     - navigation.tabs
     - navigation.tabs.sticky
@@ -129,26 +129,31 @@ nav:
   - 首页: 
     - index.md
   
-  - 后端:
-    - Python:
-      - abc:
-        - python/python-base.md
-        - Python 基础: go/go-base.md
-        - Python WEB: go/go-base.md
-    - Go: go/go-base.md
-    - Java: java/java-base.md
-    - Kotlin: kotlin/kotlin-base.md
-    - Rust: rust/rust-base.md
-    - Scala: scala/scala-base.md
-
-    - 其他:
-      - 容器化: container/container-base.md
-      - 数据库: databases/db-base.md
-      - 消息队列: mq/mq-base.md
-      - 版本控制: vcs/vcs-base.md
+  - 教程:
+    - tutorials/index.md
+    - 后端:
+      - Python:
+        - tutorials/python/index.md
+        - 基础知识: tutorials/python/python-base.md
+        - 办公自动化: tutorials/python/python-office-auto.md
+        - 可视化: tutorials/python/python-visualization.md
+        - 任务调度: tutorials/python/python-task-scheduler.md
+        - WEB 开发: tutorials/python/python-web.md
+        - GUI 开发: tutorials/python/python-gui.md
+      - Go: tutorials/go/go-base.md
+      - Java: tutorials/java/java-base.md
+      - Kotlin: tutorials/kotlin/kotlin-base.md
+      - Rust: tutorials/rust/rust-base.md
+      - Scala: tutorials/scala/scala-base.md
   
-  - 前端:
-    - Vue: vue/vue-base.md
+    - 前端:
+      - Vue: tutorials/vue/vue-base.md
+    
+    - 其他:
+      - 容器化: tutorials/container/container-base.md
+      - 数据库: tutorials/databases/db-base.md
+      - 消息队列: tutorials/mq/mq-base.md
+      - 版本控制: tutorials/vcs/vcs-base.md
   
   - 人工智能: ai/index.md
   - 商业分析: business_analysis/index.md
