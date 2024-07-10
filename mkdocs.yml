@@ -21,9 +21,9 @@ theme:
     - content.tooltips
     - content.tabs.link
     - content.footnote.tooltips
-    - navigation.instant
-    - navigation.instant.prefetch
-    - navigation.instant.progress
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
     # - navigation.prune
     - navigation.footer
     - navigation.tabs
