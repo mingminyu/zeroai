@@ -8,22 +8,22 @@ icon: material/database
 
 <div class="grid cards" markdown>
 
-- :databases-hive-logo: &nbsp; __[MySQL][mysql]__
+- :databases-mysql-logo: &nbsp; __[MySQL][mysql]__
 
     ---
     Hive 是基于 Hadoop 平台的一款主流的关系型数据库
 
-- :databases-hive-logo: &nbsp; __[SQLite][sqlite]__
+- :simple-sqlite: &nbsp; __[SQLite][sqlite]__
 
     ---
     Hive 是基于 Hadoop 平台的一款主流的关系型数据库
 
-- :databases-hive-logo: &nbsp; __[Presto][presto]__
+- :simple-presto: &nbsp; __[Presto][presto]__
 
     ---
     Hive 是基于 Hadoop 平台的一款主流的关系型数据库
 
-- :databases-hive-logo: &nbsp; __[PostgreSQL][postgresql]__
+- :simple-postgresql: &nbsp; __[PostgreSQL][postgresql]__
 
     ---
     Hive 是基于 Hadoop 平台的一款主流的关系型数据库
@@ -33,7 +33,7 @@ icon: material/database
     ---
     Hive 是基于 Hadoop 平台的一款主流的关系型数据库
 
-- :databases-hive-logo: &nbsp; __[Impala][impala]__
+- :databases-impala-logo: &nbsp; __[Impala][impala]__
 
     ---
     Hive 是基于 Hadoop 平台的一款主流的关系型数据库
@@ -44,42 +44,42 @@ icon: material/database
 
 <div class="grid cards" markdown>
 
-- :databases-hive-logo: &nbsp; __[Redis][redis]__
+- :databases-redis-logo: &nbsp; __[Redis][redis]__
 
     ---
     Hive 是基于 Hadoop 平台的一款主流的关系型数据库
 
-- :databases-hive-logo: &nbsp; __[MongoDB][mongodb]__
+- :simple-mongodb: &nbsp; __[MongoDB][mongodb]__
 
     ---
     Hive 是基于 Hadoop 平台的一款主流的关系型数据库
 
-- :databases-hive-logo: &nbsp; __[MemCached][memcached]__
+- :databases-memcached-logo: &nbsp; __[MemCached][memcached]__
 
     ---
     Hive 是基于 Hadoop 平台的一款主流的关系型数据库
 
-- :databases-hive-logo: &nbsp; __[HBase][hbase]__
+- :simple-apachehbase: &nbsp; __[HBase][hbase]__
 
     ---
     Hive 是基于 Hadoop 平台的一款主流的关系型数据库
 
-- :databases-hive-logo: &nbsp; __[Neo4j][neo4j]__
+- :simple-neo4j: &nbsp; __[Neo4j][neo4j]__
 
     ---
     Hive 是基于 Hadoop 平台的一款主流的关系型数据库
 
-- :databases-hive-logo: &nbsp; __[Elastic Search][elastic_search]__
+- :simple-elasticsearch: &nbsp; __[Elastic Search][elastic_search]__
 
     ---
     Hive 是基于 Hadoop 平台的一款主流的关系型数据库
 
-- :databases-hive-logo: &nbsp; __[Milvus][milvus]__
+- :simple-milvus: &nbsp; __[Milvus][milvus]__
 
     ---
     Hive 是基于 Hadoop 平台的一款主流的关系型数据库
 
-- :databases-hive-logo: &nbsp; __[Clickhouse][clickhouse]__
+- :simple-clickhouse: &nbsp; __[Clickhouse][clickhouse]__
 
     ---
     Hive 是基于 Hadoop 平台的一款主流的关系型数据库

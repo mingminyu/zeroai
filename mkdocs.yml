@@ -21,9 +21,9 @@ theme:
     - content.tooltips
     - content.tabs.link
     - content.footnote.tooltips
-    # - navigation.instant
+    - navigation.instant
+    - navigation.instant.progress
     # - navigation.instant.prefetch
-    # - navigation.instant.progress
     # - navigation.prune
     - navigation.footer
     - navigation.tabs
@@ -142,7 +142,12 @@ nav:
       - Go: tutorials/go/go-base.md
       - Java: tutorials/java/java-base.md
       - Kotlin: tutorials/kotlin/kotlin-base.md
-      - Rust: tutorials/rust/rust-base.md
+      - Rust: 
+        - tutorials/rust/index.md
+        - 基础知识: 
+          - 快速入门: tutorials/rust/rust-base/rust-quickstart.md
+          - 包管理器: tutorials/rust/rust-base/rust-cargo.md
+
       - Scala: tutorials/scala/scala-base.md
   
     - 前端:

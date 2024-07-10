@@ -2,5 +2,4 @@
 icon: material/language-rust
 ---
 
-# Rust
-
+# Rust 教程
