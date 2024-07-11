@@ -1,4 +1,4 @@
-# 所有权机制
+# Rust 所有权机制
 
 每种编程语言都有自己的内存管理，像 C/C++ 这种编程语言，需要我们手动编写代码去做内存管理，而 Python/C#/Java 则是直接交给 GC（非常安全但是 stop the world 对程序性能伤害巨大），而 Rust 编译器则是非常特殊的一个，采用 Ownership 的 rule、Borrow Checker 以及 Lifetime，做到了更好地内存管理。
 

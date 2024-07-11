@@ -149,6 +149,7 @@ nav:
           - 包管理器: tutorials/rust/rust-base/rust-cargo.md
           - 变量与数据类型: tutorials/rust/rust-base/rust-variable-and-types.md
           - 所有权机制: tutorials/rust/rust-base/rust-ownership.md
+          - 字符串: tutorials/rust/rust-base/rust-string.md
 
       - Scala: tutorials/scala/scala-base.md
   
