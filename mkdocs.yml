@@ -150,8 +150,8 @@ nav:
           - 变量与数据类型: tutorials/rust/rust-base/rust-variable-and-types.md
           - 所有权机制: tutorials/rust/rust-base/rust-ownership.md
           - 字符串: tutorials/rust/rust-base/rust-string.md
-          - 枚举值和匹配: tutorials\rust\rust-base\rust-enum-and-match.md
-          - 结构体: tutorials\rust\rust-base\rust-struct.md
+          - 枚举值和匹配: tutorials/rust/rust-base/rust-enum-and-match.md
+          - 结构体: tutorials/rust/rust-base/rust-struct.md
 
       - Scala: tutorials/scala/scala-base.md
   
