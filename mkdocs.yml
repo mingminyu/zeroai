@@ -144,12 +144,14 @@ nav:
       - Kotlin: tutorials/kotlin/kotlin-base.md
       - Rust: 
         - tutorials/rust/index.md
-        - 基础知识: 
+        - 基础知识:
           - 快速入门: tutorials/rust/rust-base/rust-quickstart.md
           - 包管理器: tutorials/rust/rust-base/rust-cargo.md
           - 变量与数据类型: tutorials/rust/rust-base/rust-variable-and-types.md
           - 所有权机制: tutorials/rust/rust-base/rust-ownership.md
           - 字符串: tutorials/rust/rust-base/rust-string.md
+          - 枚举值和匹配: tutorials\rust\rust-base\rust-enum-and-match.md
+          - 结构体: tutorials\rust\rust-base\rust-struct.md
 
       - Scala: tutorials/scala/scala-base.md
   
