@@ -147,6 +147,8 @@ nav:
         - 基础知识: 
           - 快速入门: tutorials/rust/rust-base/rust-quickstart.md
           - 包管理器: tutorials/rust/rust-base/rust-cargo.md
+          - 变量与数据类型: tutorials/rust/rust-base/rust-variable-and-types.md
+          - 所有权机制: tutorials/rust/rust-base/rust-ownership.md
 
       - Scala: tutorials/scala/scala-base.md
   
