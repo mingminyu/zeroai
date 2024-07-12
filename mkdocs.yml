@@ -59,6 +59,24 @@ theme:
   language: zh
 
 plugins:
+  - blog:
+      blog_toc: true
+      post_date_format: short
+      post_url_date_format: yyyy/MM/dd
+      post_url_format: "{categories}/{slug}"
+      post_slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+      post_excerpt_max_authors: 2
+      archive_toc: true
+      categories_toc: true
+      pagination_per_page: 10
+      pagination_url_format: "page/{page}"
+      pagination_format: "~2~"
+      pagination_if_single_page: false
+      pagination_keep_content: true
+
+  - tags
   - search
   - toggle-sidebar
   - tags:
@@ -152,6 +170,7 @@ nav:
           - 字符串: tutorials/rust/rust-base/rust-string.md
           - 枚举值和匹配: tutorials/rust/rust-base/rust-enum-and-match.md
           - 结构体: tutorials/rust/rust-base/rust-struct.md
+          - 堆、栈以及复制与转移: tutorials/rust/rust-base/rust-stack-heap-copy-move.md
 
       - Scala: tutorials/scala/scala-base.md
   
@@ -164,6 +183,11 @@ nav:
       - 消息队列: tutorials/mq/mq-base.md
       - 版本控制: tutorials/vcs/vcs-base.md
   
-  - 人工智能: ai/index.md
+  - 人工智能: 
+    - ai/index.md
+
   - 商业分析: business_analysis/index.md
+  - 博客:
+    - blog/index.md
+    - 
   
