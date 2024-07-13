@@ -175,7 +175,6 @@ nav:
           - 枚举值和匹配: tutorials/rust/rust-base/rust-enum-and-match.md
           - 结构体: tutorials/rust/rust-base/rust-struct.md
           - 堆、栈以及复制与转移: tutorials/rust/rust-base/rust-stack-heap-copy-move.md
-
       - Scala: tutorials/scala/scala-base.md
   
     - 前端:
@@ -189,6 +188,13 @@ nav:
   
   - 人工智能: 
     - ai/index.md
+    - 机器学习:
+      - ai/machine-learning/index.md
+
+    - 深度学习:
+      # - ai/deep-learning/index.md
+      - 基础内容:
+        - 注意力机制: ai/deep-learning/attention.md
 
   - 商业分析: business_analysis/index.md
   - 博客:
