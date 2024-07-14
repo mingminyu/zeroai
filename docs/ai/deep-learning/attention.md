@@ -14,3 +14,12 @@
 ![注意力机制](../../images/attention.png)
 
 
+## 2. 非参注意力池化层
+
+给定数据 $(x_i, y_i), i = 1,\cdots, n$，平均池化层最简单地方案是 $f(x) = \frac{1}{n} \sum_i y_i$，更好的方案是 60 年代提出的 Nadaraya-Watson 核回归：
+
+$$
+f(x) = \sum_{i=1}^n \frac{K(x - x_i)}{\sum_{j=1}^n K(x - x_j)} y_i
+$$
+
+这里地 $f(x)$ 就是 Query，$x_j$ 对应地是 Key，而 $y_i$ 则是 Value。
