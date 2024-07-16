@@ -155,6 +155,10 @@ markdown_extensions:
 nav:
   - 首页: 
     - index.md
+    - 个人项目:
+      - ReportML:
+          - 简介: projects/reportml/overview.md
+
   
   - 教程:
     - tutorials/index.md
@@ -203,5 +207,16 @@ nav:
         - 注意力机制: ai/deep-learning/attention.md
 
   - 商业分析: business_analysis/index.md
+  - 软件工具:
+    - AIGC:
+      - ChatBox: tools/chatbox.md
+      
+    - 编程开发:
+      - PyCharm: tools/pycharm.md
+
+    # - 日常办公:
+    # - 系统工具:
+    # - 装机必备:
+
   - 博客:
     - blog/index.md
