@@ -210,6 +210,11 @@ nav:
   - 软件工具:
     - AIGC:
       - ChatBox: tools/chatbox.md
+      # - NextChat:
+      # - LobreChat:
+      # - LobeChat:
+      # - LM Studio:
+      # - Chat Ollama:
       
     - 编程开发:
       - PyCharm: tools/pycharm.md
