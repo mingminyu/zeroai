@@ -218,9 +218,11 @@ nav:
       
     - 编程开发:
       - PyCharm: tools/pycharm.md
+      # - IDEA: tools/idea.md
 
     # - 日常办公:
-    # - 系统工具:
+    - 系统工具:
+      - VPN: tools/vpn.md
     # - 装机必备:
 
   - 博客:
