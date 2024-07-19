@@ -171,6 +171,9 @@ nav:
         - 任务调度: tutorials/python/python-task-scheduler.md
         - WEB 开发: tutorials/python/python-web.md
         - GUI 开发: tutorials/python/python-gui.md
+        - 爬虫: 
+          - tutorials/python/spider/index.md
+        
       - Go: tutorials/go/go-base.md
       - Java: tutorials/java/java-base.md
       - Kotlin: tutorials/kotlin/kotlin-base.md
