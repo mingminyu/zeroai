@@ -166,13 +166,13 @@ nav:
       - Python:
         - tutorials/python/index.md
         - 基础知识: tutorials/python/python-base.md
-        - 办公自动化: tutorials/python/python-office-auto.md
+        - 爬虫: tutorials/python/spider/index.md
         - 可视化: tutorials/python/python-visualization.md
         - 任务调度: tutorials/python/python-task-scheduler.md
+        - 文档工具: tutorials/python/python-docs-tools.md
+        - 办公自动化: tutorials/python/python-office-auto.md
         - WEB 开发: tutorials/python/python-web.md
         - GUI 开发: tutorials/python/python-gui.md
-        - 爬虫: 
-          - tutorials/python/spider/index.md
         
       - Go: tutorials/go/go-base.md
       - Java: tutorials/java/java-base.md
@@ -205,9 +205,11 @@ nav:
       - ai/machine-learning/index.md
 
     - 深度学习:
-      # - ai/deep-learning/index.md
       - 基础内容:
         - 注意力机制: ai/deep-learning/attention.md
+
+    - AI:
+      - Conversational AI: ai/aigc/conversational-ai.md
 
   - 商业分析: business_analysis/index.md
   - 软件工具:
