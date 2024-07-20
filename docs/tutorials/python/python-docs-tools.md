@@ -23,4 +23,4 @@
 </div>
 
 [mkdocs]: https://www.zerooai.cn
-[material_mkdocs]: https://www.zerooai.cn/mkdocs_material
+[material_mkdocs]: https://www.zerooai.cn/mkdocs-material

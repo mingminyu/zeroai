@@ -203,10 +203,22 @@ nav:
     - ai/index.md
     - 机器学习:
       - ai/machine-learning/index.md
+      # - 感知机:
+      # - SVM:
+      # - 逻辑回归:
+      # - 决策树:
 
     - 深度学习:
       - 基础内容:
-        - 注意力机制: ai/deep-learning/attention.md
+        # - CNN:
+        # - RNN:
+        # - LSTM:
+        - Attention: ai/deep-learning/attention.md
+        # - 变分自编码器:
+        # - 生成式对抗网络: 
+        # - Transformer:
+        # - 扩散模型:
+        # - 多模态模型:
 
     - AI:
       - Conversational AI: ai/aigc/conversational-ai.md
