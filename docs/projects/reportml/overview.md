@@ -6,8 +6,6 @@
 
 ## 1. 简介
 
-:material-microsoft-windows: &nbsp; :simple-linux: &nbsp; :simple-macos:
-
 ReportML 作为一款跨平台的机器学习框架，它不仅是支持快速建模的 AutoML 框架，还是一个自动输出模型报告的框架。考虑到很多业务场景中建模依旧还是使用 Excel 作为模型输出报告，ReportML 会记录自动建模中的各种细节，并产出一份非常美观的 Excel 模型报告。
 
 ## 2. 安装
