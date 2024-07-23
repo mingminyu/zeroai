@@ -165,7 +165,9 @@ nav:
     - 后端:
       - Python:
         - tutorials/python/index.md
-        - 基础知识: tutorials/python/python-base.md
+        - 基础知识: 
+          - 包管理: tutorials/python/pkg_management.md
+        
         - 爬虫: tutorials/python/spider/index.md
         - 可视化: tutorials/python/python-visualization.md
         - 任务调度: tutorials/python/python-task-scheduler.md
@@ -189,6 +191,9 @@ nav:
           - 结构体: tutorials/rust/rust-base/rust-struct.md
           - 堆、栈以及复制与转移: tutorials/rust/rust-base/rust-stack-heap-copy-move.md
       - Scala: tutorials/scala/scala-base.md
+      - Shell: 
+        - tutorials/shell/index.md
+        - 用户管理: tutorials/shell/user_management.md
   
     - 前端:
       - Vue: tutorials/vue/vue-base.md
