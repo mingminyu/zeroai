@@ -16,7 +16,7 @@
 
 - 直接在命令行中指定镜像源：这个方式有一个弊端就是，以上面命令为例，只有 Pandas 的安装使用的是清华镜像源，但 Pandas 依赖包并不会使用该安装源进行安装。
 
-```Bash
+```bash
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pandas
 ```
 
@@ -25,14 +25,14 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pandas
 
 - 通过 `pip config` 配置：配置后安装第三方库都会优先走所配置的镜像源
 
-```Bash
+```bash
 pip config set global.index-url http://mirrors.aliyun.com/pypi/simple/
 pip config set global.trusted-host mirrors.aliyun.com 
 ```
 
 - 在 pip 配置文件中设定镜像源: 对于 Linux/Mac 而言，PIP 配置文件路径为 ~/.pip/pip.conf；对于 Windows 系统而言，PIP 配置文件路径为 ~/pip/pip.ini，如果没有该文件，则手动进行创建。然后在文件中填入以下内容，更改默认安装镜像源。
 
-```Ini
+```ini
 [global]
 index-url = https://pypi.doubanio.com/simple
 timeout = 6000
@@ -51,7 +51,7 @@ pip install pandas --proxy=https://pypi.ai.com/simple
 
 当然，我们也可以在配置文件中直接添加此参数的代理 URL 值:
 
-```Ini
+```ini
 [global]
 index-url = https://pypi.doubanio.com/simple
 proxy=https://pypi.ai.com/simple
@@ -67,7 +67,7 @@ CONDA 是一款嵌入在 Miniconda 和 Anaconda 中非常优秀的 Python 包管
 
 当然，CONDA 的安装镜像源也是在美国，所以我们可以在 .condarc 文件中添加如下内容，来将安装镜像源更改为国内镜像源（国内用的最多的就是清华的 CONDA 镜像源）。
 
-```Bash
+```bash
 channels:
   - defaults
 show_channel_urls: true
@@ -86,7 +86,7 @@ custom_channels:
 
 对于 Windows 用户而言，默认是找不到 CONDA 的配置文件的(由于系统的限制，我们也不能直接创建以 . 开头的文件)，我们可以通过如下命令直接和配置清华镜像源，执行完我们就可以在用户根目录下找到 .condarc 文件了:
 
-```Bash
+```bash
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
 conda config --set show_channel_urls yes

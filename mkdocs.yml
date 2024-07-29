@@ -159,15 +159,20 @@ nav:
       - ReportML:
           - 简介: projects/reportml/overview.md
 
-  
   - 教程:
     - tutorials/index.md
     - 后端:
       - Python:
         - tutorials/python/index.md
-        - 基础知识: 
-          - 包管理: tutorials/python/pkg_management.md
-        
+        - 基础知识: tutorials/python/python-base.md
+        - 包管理: 
+          # - tutorials/python/pkg_management.md
+          - PIP: tutorials/python/pkg_management/pip.md
+          - PDM:
+            - tutorials/python/pdm/index.md
+            - 安装: tutorials/python/pdm/installation.md
+            - 创建项目: tutorials/python/pdm/create_project.md
+
         - 爬虫: tutorials/python/spider/index.md
         - 可视化: tutorials/python/python-visualization.md
         - 任务调度: tutorials/python/python-task-scheduler.md
