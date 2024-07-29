@@ -26,7 +26,7 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pandas
 - 通过 `pip config` 配置：配置后安装第三方库都会优先走所配置的镜像源
 
 ```bash
-pip config set global.index-url http://mirrors.aliyun.com/pypi/simple/
+pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
 pip config set global.trusted-host mirrors.aliyun.com 
 ```
 
