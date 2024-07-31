@@ -166,7 +166,7 @@ nav:
         - tutorials/python/index.md
         - 基础知识: tutorials/python/python-base.md
         - 包管理: 
-          # - tutorials/python/pkg_management.md
+          - tutorials/python/pkg_management/index.md
           - PIP: tutorials/python/pkg_management/pip.md
           - PDM:
             - tutorials/python/pdm/index.md
@@ -229,6 +229,9 @@ nav:
         # - Transformer:
         # - 扩散模型:
         # - 多模态模型:
+
+    - 自然语言处理:
+      - ai/nlp/index.md
 
     - AI:
       - Conversational AI: ai/aigc/conversational-ai.md
