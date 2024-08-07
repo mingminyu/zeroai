@@ -5,7 +5,7 @@
 !!! note "随意与不随意线索"
     动物需要在复杂环境下关注有效的信息，而人类会根据随意和不随意线索选择注意点。
 
-    这里 “**随意**” 的概念实际上有点抽象，举一个更容易理解的例子，针对这些图标 :material-et: &nbsp; :material-axe: &nbsp; :lock: &nbsp; :material-cow: &nbsp; :material-book: ，如果你没有特别目标的话，你的注意力通常会关注到颜色的突出的 :lock: 图标上，这种就叫做 **不随意线索**；但是如果你此刻想读书，那么你的注意力会落在 :material-book: 图标上，这种叫做 **随意线索**。
+    这里 “**随意**” 的概念实际上有点抽象，举一个更容易理解的例子，针对这些图标 :material-et: &nbsp; :material-axe: &nbsp; :material-lock: &nbsp; :material-cow: &nbsp; :material-book: ，如果你没有特别目标的话，你的注意力通常会关注到颜色的突出的 :material-lock: 图标上，这种就叫做 **不随意线索**；但是如果你此刻想读书，那么你的注意力会落在 :material-book: 图标上，这种叫做 **随意线索**。
 
 ## 1. 注意力机制简介
 
